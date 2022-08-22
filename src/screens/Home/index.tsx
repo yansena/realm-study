@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigation } from '@react-navigation/native';
 import { Container } from './styles';
-
+import { MaterialIcons, Ionicons } from '@expo/vector-icons';
 import { Header } from '../../components/Header';
 import { Orders } from '../../components/Orders';
 import { Button } from '../../components/Button';
@@ -16,6 +16,7 @@ export function Home() {
   return (
     <Container>
       <Header />
+      
       <Orders />
 
       <Button
